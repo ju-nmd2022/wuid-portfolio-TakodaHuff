@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+  background-color: rgb(248, 245, 242);
+}
+
+.heading-text {
+  font-size: 20px;
+  text-align: left;
+}
+
+.h1 {
+  color: rgb(58, 106, 135);
+  letter-spacing: -5px;
+  font-size: 60px;
+  /* font-family: "Playfair Display", serif; */
+}
+
+.container {
+  padding: 50px 3%;
+}
+
+ul {
+  list-style: none;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.image-gallery > li {
+  flex: auto;
+  height: 300px;
+  position: relative;
+  cursor: zoom-in;
+}
+
+/* .image-gallery::after {
+  content: "";
+  flex-basis: 350px;
+} */
+
+.image-gallery li img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  transition: all 0s ease;
+  color: aliceblue;
+  border-radius: 5px;
+  /* center overlay text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-gallery li:hover .overlay {
+  transform: scale(1);
+}
+
+.nmd {
+  font-size: 20px;
+}
+
+.li {
+  opacity: 100%;
+  width: 30px;
+  /* margin-left: 20px; */
+}
+
+.be {
+  opacity: 100%;
+  width: 30px;
+}
+
+.gi {
+  opacity: 100%;
+  width: 30px;
+}
+
+.di {
+  opacity: 100%;
+  width: 30px;
+}
+
+.li :hover {
+  cursor: pointer;
+  opacity: 40%;
+}
+
+.be :hover {
+  cursor: pointer;
+  opacity: 40%;
+}
+
+.gi :hover {
+  cursor: pointer;
+  opacity: 40%;
+}
+
+.di :hover {
+  cursor: pointer;
+  opacity: 40%;
+}
+
+.gallery {
+  float: left;
+  font-size: 30px;
+  letter-spacing: -2px;
+}
+
+.gallery :hover {
+  cursor: pointer;
+  color: rgb(58, 106, 135);
+}
+
+.about {
+  float: left;
+  font-size: 30px;
+  letter-spacing: -2px;
+}
+
+.about :hover {
+  cursor: pointer;
+  color: rgb(58, 106, 135);
+}
+
+.contact {
+  float: left;
+  font-size: 30px;
+  letter-spacing: -2px;
+  padding-right: 10px;
+}
+
+.contact :hover {
+  cursor: pointer;
+  color: rgb(58, 106, 135);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  cursor: crosshair;
+}
+
+.links {
+  text-decoration: none;
+  color: inherit;
+}
+/* Line 24-77 was made made with help from the following guide https://blog.logrocket.com/how-create-responsive-image-gallery-css-flexbox/#responsive-image-gallery-maintaining-image-aspect-ratios */
