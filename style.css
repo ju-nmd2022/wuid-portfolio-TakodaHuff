@@ -103,22 +103,22 @@ ul {
 
 .li :hover {
   cursor: pointer;
-  opacity: 40%;
+  /* opacity: 40%; */
 }
 
 .be :hover {
   cursor: pointer;
-  opacity: 40%;
+  /* opacity: 40%; */
 }
 
 .gi :hover {
   cursor: pointer;
-  opacity: 40%;
+  /* opacity: 40%; */
 }
 
 .di :hover {
   cursor: pointer;
-  opacity: 40%;
+  /* opacity: 40%; */
 }
 
 .gallery {
@@ -127,7 +127,7 @@ ul {
   letter-spacing: -2px;
 }
 
-.gallery :hover {
+.gallery {
   cursor: pointer;
   color: rgb(58, 106, 135);
 }

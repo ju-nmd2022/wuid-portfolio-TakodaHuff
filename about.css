@@ -40,6 +40,17 @@ body {
   }
 }
 
+.about {
+  color: rgb(58, 106, 135);
+}
+
+.gallery {
+  color: black;
+}
+.gallery :hover {
+  color: rgb(58, 106, 135);
+}
+
 .footer {
   display: flex;
   justify-content: center;
