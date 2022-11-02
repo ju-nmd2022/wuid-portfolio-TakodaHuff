@@ -24,6 +24,7 @@ body {
   font-weight: 300;
   padding-left: 5%;
   color: rgb(20, 39, 50);
+  line-height: 35px;
 }
 
 .flash ::after {
