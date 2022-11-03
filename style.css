@@ -101,6 +101,12 @@ ul {
   width: 30px;
 }
 
+.sp {
+  opacity: 100%;
+  width: 30px;
+  /* margin-left: 20px; */
+}
+
 .li :hover {
   cursor: pointer;
   /* opacity: 40%; */
@@ -117,6 +123,11 @@ ul {
 }
 
 .di :hover {
+  cursor: pointer;
+  /* opacity: 40%; */
+}
+
+.sp :hover {
   cursor: pointer;
   /* opacity: 40%; */
 }
