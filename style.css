@@ -154,14 +154,14 @@ ul {
   color: rgb(58, 106, 135);
 }
 
-.contact {
+.projects {
   float: left;
   font-size: 30px;
   letter-spacing: -2px;
   padding-right: 10px;
 }
 
-.contact :hover {
+.projects :hover {
   cursor: pointer;
   color: rgb(58, 106, 135);
 }
