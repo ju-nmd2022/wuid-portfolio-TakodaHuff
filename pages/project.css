@@ -68,3 +68,17 @@ body {
 #phones {
   width: 60%;
 }
+
+.project-image {
+  animation-duration: 1.3s;
+  animation-name: animation9;
+}
+
+@keyframes animation9 {
+  from {
+    margin-top: 100%;
+  }
+  to {
+    margin-top: 0%;
+  }
+}
