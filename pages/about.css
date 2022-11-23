@@ -9,7 +9,16 @@ body {
   font-weight: 900;
 }
 
-.amheader {
+.amheader1 {
+  display: flex;
+  align-items: center;
+  font-family: "Epilogue", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  /* padding-left: 5%; */
+}
+
+.amheader2 {
   display: flex;
   align-items: center;
   font-family: "Epilogue", sans-serif;
@@ -61,3 +70,45 @@ body {
 }
 
 /* Guide used for blinking cursor https://www.amitmerchant.com/simple-blinking-cursor-animation-using-css/ */
+
+.amheader1 {
+  animation-duration: 1.1s;
+  animation-name: animation4;
+}
+
+@keyframes animation4 {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+.amheader2 {
+  animation-duration: 1.2s;
+  animation-name: animation5;
+}
+
+@keyframes animation5 {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+
+.amtext {
+  animation-duration: 3s;
+  animation-name: animation6;
+}
+
+@keyframes animation6 {
+  from {
+    margin-right: 100%;
+  }
+  to {
+    margin-right: 0%;
+  }
+}
