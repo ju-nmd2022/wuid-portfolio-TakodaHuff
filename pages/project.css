@@ -36,3 +36,31 @@ body {
   margin-right: auto;
   width: 30%;
 }
+
+.project-title {
+  animation-duration: 1.2s;
+  animation-name: animation7;
+}
+
+@keyframes animation7 {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 3%;
+  }
+}
+
+.project-text {
+  animation-duration: 3s;
+  animation-name: animation8;
+}
+
+@keyframes animation8 {
+  from {
+    margin-right: 100%;
+  }
+  to {
+    margin-right: 0%;
+  }
+}
