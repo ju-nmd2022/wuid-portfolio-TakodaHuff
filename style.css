@@ -152,6 +152,7 @@ ul {
 .about :hover {
   cursor: pointer;
   color: rgb(58, 106, 135);
+  transition: all 200ms ease-in-out;
 }
 
 .projects {
@@ -164,6 +165,7 @@ ul {
 .projects :hover {
   cursor: pointer;
   color: rgb(58, 106, 135);
+  transition: all 200ms ease-in-out;
 }
 
 .footer {

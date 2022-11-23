@@ -51,6 +51,7 @@ body {
 }
 .gallery :hover {
   color: rgb(58, 106, 135);
+  transition: all 200ms ease-in-out;
 }
 
 .footer {
