@@ -226,4 +226,22 @@ ul {
   }
 }
 
-/* Line 24-77 was made made with help from the following guide https://blog.logrocket.com/how-create-responsive-image-gallery-css-flexbox/#responsive-image-gallery-maintaining-image-aspect-ratios */
+::-webkit-scrollbar {
+  width: 30px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 15px;
+  background: linear-gradient(145deg, #dfddda, #ffffff);
+  box-shadow: 9px 9px 18px #f6f3f0, -9px -9px 18px #faf7f4;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background: #f8f5f2;
+  box-shadow: 9px 9px 18px #a19f9d, -9px -9px 18px #ffffff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(58, 106, 135);
+}
