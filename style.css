@@ -179,4 +179,51 @@ ul {
   text-decoration: none;
   color: inherit;
 }
+
+.heading-text {
+  animation-duration: 800ms;
+  animation-name: animation1;
+}
+
+@keyframes animation1 {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    /* width: 100%; */
+  }
+}
+
+.nmd {
+  animation-duration: 1s;
+  animation-name: animation2;
+}
+
+@keyframes animation2 {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    /* width: 100%; */
+  }
+}
+
+.image-gallery {
+  animation-duration: 3s;
+  animation-name: animation3;
+}
+
+@keyframes animation3 {
+  from {
+    margin-right: 100%;
+  }
+  to {
+    margin-right: 0%;
+  }
+}
+
 /* Line 24-77 was made made with help from the following guide https://blog.logrocket.com/how-create-responsive-image-gallery-css-flexbox/#responsive-image-gallery-maintaining-image-aspect-ratios */
